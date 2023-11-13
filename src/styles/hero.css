@@ -1,0 +1,103 @@
+.hero{
+    height: 45rem;
+    display: flex;
+    padding-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75 rem;
+    margin: auto;
+    color: white;
+}
+
+.left{
+    flex:3;
+    padding-left: 4rem;
+    flex-direction: column;
+
+}
+p{
+    font-size: 1.4rem;
+}
+.left span{
+    color: #00FFF1;
+    font-size: 2rem;
+}
+.left h1{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+.right{
+    flex:2;
+    padding-right: 10rem;
+    flex-direction: column;
+
+}
+.right button{
+    background-color: #00FFF1;
+    border-radius: 15px;
+    height: 3rem;
+    width: 9rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+
+}
+
+.right .contacto_button{
+    background-color: #00FFF1;
+    border-radius: 15px;
+    height: 2rem;
+    width: 9rem;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    z-index: 9998;
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+span{
+    color:#ebd668;
+}
+.left .contacto_button{
+    background-color: #00FFF1;
+    border-radius: 15px;
+    height: 2rem;
+    width: 9rem;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    z-index: 9998;
+    padding-top: 1rem;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 667px) {
+    .hero{
+        flex-direction: column;
+        text-align: center; /* Centrar el texto */
+    }
+    .left,.right{
+        flex:1;
+        padding:0;
+    }
+    .left h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .span{
+        font-size: 1.4rem;
+    }
+    .right .contacto_button{
+        visibility: hidden;
+    }
+    .left .contacto_button{
+        margin-top: 1rem;
+        visibility: visible;
+    }
+}

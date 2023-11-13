@@ -1,0 +1,54 @@
+
+.navBar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #0c1016e7;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5rem;
+    align-items: center;
+    border-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #bbb;
+    z-index: 9999;
+  }
+  
+  .navBar a{
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navBar li{
+    display: inline;
+
+  }
+
+  .navBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+/* Arreglar hover */
+  .navBar a:hover { 
+    color: #ebd668;
+  }
+ 
+
+  /* Estilos para pantallas más pequeñas (responsividad) */
+@media screen and (max-width: 768px) {
+    .navBar {
+      flex-direction: column; /* Cambiar a una disposición de columna */
+      text-align: center; /* Centrar el texto */
+      height: auto; /* Altura automática */
+      border-bottom: none; /* Eliminar la línea inferior */
+    }
+  
+    .navBar li {
+      margin-bottom: 1rem; /* Agregar espacio entre elementos de la lista */
+    }
+  }

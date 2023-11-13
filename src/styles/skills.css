@@ -1,0 +1,74 @@
+.tecnology {
+  text-align: center;
+  color: #FF6E48;
+  font-size: 2rem;
+}
+
+.tecnologyicons {
+  padding: 0 5%;
+  background-color: #0c1016;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tecnologyItem {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+.tecnologyicons h4 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.iconBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.iconBox li {
+  flex: 1;
+  flex-basis: calc(33.33% - 1rem);
+  font-size: 3rem;
+  padding: 1rem;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.iconBox li:hover {
+  transform: scale(1.2);
+  color: #00FFF1;
+}
+
+
+
+@media (min-width: 769px) {
+  .iconBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Muestra 2 columnas */
+    grid-gap: 10px; /* Espaciado entre elementos */
+  }
+  .iconBox li {
+    background-color: #0c1016;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+hr{
+  width: 100%;
+  background-color: black;
+  border: 1px solid white;
+}
+
+#skills{
+  padding-top: 10rem;
+}

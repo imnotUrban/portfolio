@@ -1,0 +1,50 @@
+{ 
+   "proyects": [
+        {   "id": 1,
+            "title": "Geolocalización de documentos territoriales",
+            "description": "Como Scrum Master, lideré el desarrollo integral de frontend y backend. En el backend, implementé la geolocalización de documentos mediante la API de ChatGPT y Google. En el frontend, conecté con la API y visualicé dinámicamente datos geográficos con React y Leaflet. Garanticé la eficiencia ágil como facilitador del equipo.",
+            "photo": "",
+            "link": "https://github.com/imnotUrban/DocLoc",
+            "tecnology": ["DiReact", "BiLogoTypescript", "DiPython", "SiFastapi", "SiLeaflet", "SiMariadbfoundation"]  
+        },
+        {
+            "id":2,
+            "title": "CRUD con Express",
+            "description": "Desarrollé el backend de la 'Plataforma de Egresados' (Proyecto de curso) con Express, realizando un CRUD de publicaciones. Implementé operaciones para permitir publicaciones de diversos tipos en el proyecto.",
+            "photo": "",
+            "link": "https://github.com/GeoCurguan/INFO248-Egresados.git",
+            "tecnology": ["BiLogoTypescript", "DiMongodb", "SiExpress"]  
+        },
+
+        {
+            "id": 3,
+            "title": "BattleShip en consola",
+            "description": "Battleship es un juego implementado con una arquitectura cliente-servidor, donde se diseñó un protocolo de comunicación basado en JSON para facilitar la interacción entre todos los participantes del curso. ",
+            "photo": "",
+            "link": "https://github.com/imnotUrban/Battleship",
+            "tecnology": ["DiPython"]
+        },
+        {   "id": 4,
+            "title": "Implementación de índice invertido",
+            "description": "Desarrollo de app tipo Google para buscar documentos por palabras clave. Asumí el rol de investigación e implementación del índice invertido con Elasticsearch, mejorando eficiencia de búsquedas.",
+            "photo": "",
+            "link": "https://github.com/DiegoTroncosoJara/docs_indice_invertido.git",
+            "tecnology": ["DiPython", "ElasticSearch", "SiFastapi"]  
+        },
+        {
+            "id": 5,
+            "title": "Autenticación con JWT",
+            "description": "En este proyecto, mi tarea consistió en desarrollar el backend, implementando autenticación mediante JSON Web Tokens (JWT) y utilizando Express.js.",
+            "photo": "",
+            "link": "https://github.com/imnotUrban/api-ts-mongodb-authtoken",
+            "tecnology": ["BiLogoTypescript", "SiExpress", "DiMongodb"]  
+        },
+        {   "id": 6,
+            "title": "Sistema POS",
+            "description": "Desarrollé un sistema Point of Sale (POS) para una empresa de repuestos y accesorios utilizando PHP y JavaScript.",
+            "photo": "",
+            "link": "https://github.com/imnotUrban/POS",
+            "tecnology": ["BiLogoPhp", "DiJavascript1", "SiJquery"]  
+        }
+    ]
+}

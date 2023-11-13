@@ -1,0 +1,21 @@
+.navBar{
+  background-color: #0c1016;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 5rem;
+  align-items: center;
+  border-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.navBar a{
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+:root{
+  background-color: #0c1016;
+}
+
